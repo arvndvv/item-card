@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+:root {
+    --cardBG: #242329;
+    --white: #ffffff;
+    --bodyBg: #010101;
+    --grey: #888;
+    --blue: #1262ce;
+    --btn-blue:#1162CE;
+    --orange:#FF6D41;
+  }
+
+body{
+  background: var(--bodyBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 1rem;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+html{
+  overflow-x: hidden;
+}
+@media screen and (max-width: 600px) {
+  html{
+    font-size: 12px;
+  }
+}
+#root{
+  width: 100%;
+  padding: 2rem;
+}
+*{
+  box-sizing: border-box;
+}

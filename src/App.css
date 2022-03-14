@@ -1,0 +1,40 @@
+.App-body {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  overflow-x: hidden;
+}
+.App-header{
+  color: var(--white);
+}
+@media screen and (max-width: 600px) {
+  .App-body{
+    flex-direction: column;
+    gap: 10rem;
+  }
+}
+
+.App-header__title--thin{
+font-size: 3.5rem;
+font-weight: 400;
+line-height: 4rem;
+
+}
+
+.App-header__title--thick{
+font-size: 4.5rem;
+font-weight: 700;
+line-height: 5rem;
+}
+.text-orange{
+  color: var(--orange);
+}
